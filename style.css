@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #212121;
+  font-size: 16px;
+}
+
+#countdown {text-align: center;
+  font-size: 2em;
+  color: #fff;
+}
+
+.container {
+  min-width: 320px;
+  color: #bbb;
+  background-color: rgba(228, 203, 15, 0.6);
+  padding: 10px;
+  border-radius: 16px;
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(230, 134, 134, 0.1);
+  
+}
+h2 {position:absolute;
+    top: 200px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  color: beige;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  color: #fff;
+}
